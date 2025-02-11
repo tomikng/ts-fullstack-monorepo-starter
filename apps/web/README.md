@@ -32,13 +32,13 @@ The application will be available at `http://localhost:3000`
 
 1. To add a new shadcn component, use the CLI from the web directory:
 ```bash
-pnpm dlx shadcn-ui@latest add [component-name] -c [component-category]
+pnpm dlx shadcn-ui@latest add [component-name] -c [workspace-name]
 ```
 
 Example:
 ```bash
-pnpm dlx shadcn-ui@latest add button
-pnpm dlx shadcn-ui@latest add card
+pnpm dlx shadcn-ui@latest add button -c apps/web
+pnpm dlx shadcn-ui@latest add card -c apps/web
 ```
 
 Available components can be found at [shadcn/ui components](https://ui.shadcn.com/docs/components)
