@@ -1,1 +1,1 @@
-export * from '../prisma/index.d';
+export * from '../prisma/index';

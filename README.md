@@ -38,10 +38,15 @@ cp apps/backend/.env.example apps/backend/.env
 
 3. Generate Prisma client (required before starting the application):
 ```bash
-pnpm generate:prisma
+pnpm prisma:generate
 ```
 
-4. Start all applications in development mode:
+4. Run database migrations:
+```bash
+pnpm db:migrate:dev
+```
+
+5. Start all applications in development mode:
 ```bash
 pnpm dev
 ```

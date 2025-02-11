@@ -11,9 +11,12 @@
     "build:web": "pnpm --filter web build",
     "build:backend": "pnpm --filter backend build",
     "build": "pnpm --filter web build & pnpm --filter backend build",
-    "migrate:dev": "pnpm --filter database prisma migrate dev",
-    "generate:prisma": "pnpm --filter database prisma generate",
-    "studio": "pnpm --filter database prisma studio"
+    "db:migrate:dev": "pnpm --filter database db:migrate:dev",
+    "db:migrate:deploy": "pnpm --filter database db:migrate:deploy",
+    "db:push": "pnpm --filter database db:push",
+    "db:seed": "pnpm --filter database db:seed",
+    "prisma:generate": "pnpm --filter database generate",
+    "prisma:studio": "pnpm --filter database studio"
   },
   "devDependencies": {
     "@workspace/eslint-config": "workspace:*",
