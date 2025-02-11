@@ -36,7 +36,12 @@ pnpm install
 cp apps/backend/.env.example apps/backend/.env
 ```
 
-3. Start all applications in development mode:
+3. Generate Prisma client (required before starting the application):
+```bash
+pnpm generate:prisma
+```
+
+4. Start all applications in development mode:
 ```bash
 pnpm dev
 ```
