@@ -145,6 +145,11 @@ Common issues and solutions can be found in the respective application READMEs:
 4. Submit a pull request
 5. Ensure CI checks pass
 
+## Contact
+
+For any questions, concerns, or bug reports, please feel free to contact:
+- Email: tomasnguyen43@gmail.com
+
 ## License
 
 This project is MIT licensed. 
