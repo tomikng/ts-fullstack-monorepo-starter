@@ -24,7 +24,7 @@
 
 # Backend Application
 
-This is the backend service for TheNotz project, built with NestJS and Prisma.
+This is the backend service for Fullstack Monorepo Starter project, built with NestJS and Prisma.
 
 ## Getting Started
 

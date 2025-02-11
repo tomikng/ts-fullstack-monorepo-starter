@@ -1,11 +1,11 @@
-# TheNotz Monorepo
+# Fullstack Monorepo Starter
 
-This is a monorepo for TheNotz project containing both frontend and backend applications, along with shared packages.
+This is a monorepo for Fullstack Monorepo Starter project containing both frontend and backend applications, along with shared packages.
 
 ## Project Structure
 
 ```
-thenotz/
+fullstack-monorepo-starter/
 ├── apps/
 │   ├── web/           # Next.js frontend application
 │   └── backend/       # NestJS backend application

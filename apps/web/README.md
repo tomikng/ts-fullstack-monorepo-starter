@@ -1,6 +1,6 @@
-# Web Application (Frontend)
+# Web Application
 
-This is the frontend application of TheNotz project built with Next.js and shadcn/ui components.
+This is the frontend application of Fullstack Monorepo Starter project built with Next.js and shadcn/ui components.
 
 ## Getting Started
 
