@@ -43,18 +43,6 @@ pnpm dlx shadcn@canary add button scroll-area
 
 Available components can be found at [shadcn/ui components](https://ui.shadcn.com/docs/components)
 
-### Project Structure
-```
-apps/web/
-├── app/                # Next.js app directory
-├── components/         # React components
-│   ├── ui/            # shadcn components
-│   └── custom/        # Custom components
-├── lib/               # Utility functions
-├── styles/            # Global styles
-└── public/            # Static assets
-```
-
 ### Best Practices
 1. Use TypeScript for all new components and pages
 2. Follow the existing component structure
